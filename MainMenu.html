@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <title>Main Menu</title>
+        <style type="text/css">
+            html, body {
+               height: 100%;
+               margin: 0px;
+            }
+            div{
+               height: 100%;
+               /* background: gray; */
+               
+            }
+        
+            a{
+                text-decoration: none;
+            }
+            a:link {
+                color: black;
+            }
+            /* visited link */
+            a:visited {
+                color: black;
+            }
+            /* mouse over link */
+            a:hover {
+                color:blue;
+            }
+            /* selected link */
+            a:active {
+                color:darkgreen;
+            }
+        </style>
+        <!-- <link rel="stylesheet" href="style.css"> -->
+    </head>
+    <body bgcolor="grey">
+        <div style="width: 100%; height: 30%;">
+        
+            <div style="float: left; width:30%; height: 100%;">
+                <div style="height: 40%;">
+
+                </div>
+                <div style="height: 60%;">
+
+                    <table>
+                        <tr>
+                            <td style="width: 3%;">
+                                <a href="LogIn.html">
+                                    <img src="User.png" alt="" width=35 height=35 id="UserIcon">
+                                </a>
+                                <!-- script to log out from current user and go to login page -->
+                            </td>
+                            <td >
+                                <a  href="LogIn.html" style="text-decoration: none;text-decoration:black;">
+                                    Log out
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div style="float: left; width:40%; height: 100%; text-align: center;">
+                <div style="height: 40%;"></div>
+                <div style="height: 20%; font-size: 300%;">
+                    Menu
+                </div>
+                <div style="height: 40%;"></div>
+            </div>
+            <div style="float: left; width:30%; height: 100%;">
+
+            </div>
+        </div>
+        <div style="width: 100%; height: 40%;">
+            <div style="float: left; width:5%; height: 100%;"></div>
+            <div class="menus"
+                style="
+                    background-image:url(income.jpg);
+                   "
+            >
+                <div style="height: 40%;"></div>
+                <div style="height: 20%;">
+                    <a href="Income.html">
+                        Income
+                    </a>
+                </div>
+                <div style="height: 40%;"></div>
+                
+            </div>
+            <div class="menus" style="background-image:url(Expenditure.jpg);">
+                <div style="height: 40%;"></div>
+                <div style="height: 20%;">
+                    <a href="Expenditure.html">
+                        Expenditure
+                    </a>
+                </div>
+                <div style="height: 40%;"></div>
+                
+            </div>
+            <div class="menus" style="
+                background-image:url(Report.jpg);
+                "
+            >
+                <div style="height: 40%;"></div>
+                <div style="height: 20%;">
+                    <a href="ShowReport.html">
+                        Report
+                    </a>
+                </div>
+                <div style="height: 40%;"></div>
+                
+            </div>
+            <div style="float: left; width:5%; height: 100%;"></div>
+        </div>
+        <div style="width: 100%; height: 30%;"></div>
+        <!-- <center>
+            <table width=85% align="middle" cellpadding="97px" margin="auto">
+                <tr width=90%>
+                    <td colspan="3" bgcolor="grey" align = "left">
+                        <table>
+                            <tr>
+                                <td style="width: 3%;">
+                                    <a href="LogIn.html">
+                                        <img src="User.png" alt="" width=35 height=35 id="UserIcon">
+                                    </a>
+                                    script to log out from current user and go to login page
+                                </td>
+                                <td >
+                                    <a  href="LogIn.html" style="text-decoration: none;text-decoration:black;">
+                                        Log out
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr width=90%>
+                    <td background="income.jpg" align="middle" width=30%>
+                        <A href="Income.html"><font family="Times new roman" size=20%> Income Data</font></A>
+                    </td>
+                    <td background="Expenditure.jpg" align="middle" width = 30%>
+                        <A href="Expenditure.html"><font family="Times new roman" size=20%>Expenditure</font></A>
+                    </td>
+                    
+                    <td background="report.jpg" align="middle" width = 30%>
+                        <A href="ShowReport.html"><font family="Times new roman" size=20%>Show report</font></A>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="3" bgcolor="grey"></td>
+                </tr>
+            </table>
+        </center> -->
+    </body>
+</html>
